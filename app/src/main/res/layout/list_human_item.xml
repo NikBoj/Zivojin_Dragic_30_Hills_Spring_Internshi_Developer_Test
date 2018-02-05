@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/backgroundLayout">
+
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:text="Name"
+        android:fontFamily="@font/saira_condensed_medium"
+        android:textColor="#333333"
+        android:letterSpacing="0.1"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/txtViewFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:text="FRIENDS"
+        android:fontFamily="@font/saira_condensed_medium"
+        android:textColor="#333333"
+        android:letterSpacing="0.1"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/friendsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/saira_condensed_light"
+        android:textColor="#999999"
+        android:letterSpacing="0.1"
+        android:text="firend1"></TextView>
+
+
+    <TextView
+        android:id="@+id/txtViewFriendsOfFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:text="FRIENDS OF FRIENDS"
+        android:textColor="#333333"
+        android:fontFamily="@font/saira_condensed_medium"
+        android:letterSpacing="0.1"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/friendsOfFriendsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/saira_condensed_light"
+        android:textColor="#999999"
+        android:letterSpacing="0.1"
+        android:text="firend1"></TextView>
+
+</LinearLayout>
